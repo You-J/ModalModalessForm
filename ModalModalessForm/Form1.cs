@@ -33,7 +33,7 @@ namespace ModalModalessForm
             this.statusMessage.Text = "모달 창을 띄웁니다.";
             FormModal m = new FormModal();
             m.Title = "모달 창띄우기";
-            m.Show();
+            m.ShowDialog();
         }
 
         private void BtmModal_Click(object sender, EventArgs e)
