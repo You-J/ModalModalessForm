@@ -9,13 +9,11 @@ using System.Windows.Forms;
 
 namespace ModalModalessForm
 {
-    public partial class FormMain : Form
+    public partial class FormModal : Form
     {
-        public FormMain()
+        public FormModal()
         {
             InitializeComponent();
         }
-
-        
     }
 }
